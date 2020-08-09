@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/png" href="../Desafio 1/img/logo1.png" />
+    <title>Ejercicio Cuadrados</title>
+    <style media="screen" type="text/css">
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .square {
+            height: 200px;
+            width: 200px;
+        }
+
+        .square__red {
+            background-color: rgba(255, 0, 0, .5);
+            position: absolute;
+            z-index: 3;
+        }
+
+        .square__green {
+            background-color: rgba(0, 255, 0, .5);
+            left: 25px;
+            position: absolute;
+            top: 25px;
+            z-index: 2;
+        }
+
+        .square__blue {
+            background-color: rgba(0, 0, 255, .5);
+            left: 50px;
+            position: absolute;
+            top: 50px;
+            z-index: 1;
+        }
+        .mybutton {
+            margin: auto width: 300px;
+            height: 130px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        button:hover {
+            color: blueviolet;
+            background-color:lightgreen;
+        }
+
+        button {
+            background-color: lightslategray;
+            color:blanchedalmond;
+            width: 250px;
+            font-size: 35px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+    </style>
+</head>
+
+<body>
+    <section class="square square__red"></section>
+    <section class="square square__green"></section>
+    <section class="square square__blue"></section>
+</body>
+
+<div class="mybutton">
+    <a href="./Desafio 1/ejercicio-3.html"> <button>
+            EJERCICIO ANTERIOR
+        </button></a>
+</div>
+<div class="mybutton">
+    <a href="./ejercicio-3.html"> <button>
+            SIGUIENTE EJERCICIO
+        </button></a>
+</div>
+
+</html>
